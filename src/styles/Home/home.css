@@ -1,0 +1,126 @@
+.main {
+    height: 100vh;
+    width: 100%;
+}
+
+
+.content {
+    width: 100%;
+    height: 520px;
+    display: flex;
+    /* gap: 20px; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.content > h1 {
+    font-size: 80px;
+    font-family: 800;
+    width: 900px;
+    text-align: center;
+    animation: waviy 1s;
+    animation-delay: calc(.1s * var(--i));
+    }
+    @keyframes waviy {
+        0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {   
+      transform: translateY(-20px)
+    }
+  }
+
+
+.content > p {
+    /* margin-bottom: 50px; */
+    width: 600px;
+    font-size: 15px;
+    text-align: justify;
+    color:rgb(78, 77, 77);
+    /* text-align: center; */
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    opacity: 0.8;
+}
+
+.innerContent {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+  background-image: linear-gradient(
+    -225deg,
+    #3232e2 0%,
+    #0d0d0e 29%,
+    #3e373a 67%,
+    #161616 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear;
+  display: inline-block;
+      font-size: 42px;
+}
+
+.overview {
+    margin-top: 100px;
+    width: 100%;
+    height: 100vh;
+}
+
+.overview-content {
+    width: 100%;
+    height: 520px;
+    display: flex;  
+}
+
+.first {
+    padding: 20px;
+    width: 60%;
+}
+
+.first > img {
+    display: flex;
+    height: 460px;
+    width: 100%;
+}
+.second {
+    padding: 20px;
+    width: 40%;
+}
+
+.second > h1 {
+    width: 100%;
+}
+
+.content2 {
+    width: 100%;
+    height: 520px;
+    display: flex;  
+}
+
+.fourth {
+    padding: 20px;
+    width: 60%;
+}
+
+.fourth > img {
+    display: flex;
+    height: 460px;
+    width: 100%;
+}
+.thrid {
+    padding: 20px;
+    width: 40%;
+}
+
+.thrid > h1 {
+    width: 100%;
+}
