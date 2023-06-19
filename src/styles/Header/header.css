@@ -13,11 +13,12 @@
 }
 .animate-charcter
 {
+    font-family:fantasy;
    text-transform: uppercase;
    cursor: pointer;
     background-image: linear-gradient(
     -225deg,
-    #3232e2 0%,
+    red 0%,
     #0d0d0e 29%,
     #3e373a 67%,
     #161616 100%

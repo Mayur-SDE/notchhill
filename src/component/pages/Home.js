@@ -2,6 +2,7 @@ import React from "react";
 import "../../styles/Home/home.css";
 import image1 from "../../image/img1.jpg";
 import image2 from "../../image/img2.jpg";
+import image3 from "../../image/img3.jpg";
 
 const Home = () => {
   return (
@@ -55,7 +56,7 @@ const Home = () => {
           </div>
           <div className="content2">
             <div className="thrid">
-              <h1>Health & WELLNESS</h1>
+              <h1>Health & Wellness</h1>
               <p>
                 Whatever matters to people, matters to us. That’s why we create
                 ideas and activations that work across platforms while inspiring
@@ -77,6 +78,87 @@ const Home = () => {
             </div>
             <div className="fourth">
               <img src={image2} alt="img" />
+            </div>
+          </div>
+          <div className="newContent">
+            <div className="contentHeading">
+              <h1>
+                {/* At */}
+                <span> NOTCH HILL </span> <br /> Famously Effective Work is the
+                Rule, Not the Exception.
+              </h1>
+            </div>
+            <div className="feedInfo">
+              <div className="section1">
+                <section>
+                  <img src={image3} alt="" />
+                  <article>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                  </article>
+                </section>
+              </div>
+              <div className="section2">
+                <h1>Travel Guide</h1>
+                <p>
+                  Whatever matters to people, matters to us. That’s why we
+                  create ideas and activations that work across platforms while
+                  inspiring emotional resonance at every touchpoint. At Grey,
+                  advertising and communications doesn’t need to be a gamble.
+                </p>
+                <p>
+                  Whatever matters to people, matters to us. That’s why we
+                  create ideas and activations that work across platforms while
+                  inspiring emotional resonance at every touchpoint. At Grey,
+                  advertising and communications doesn’t need to be a gamble.
+                </p>
+                <p>
+                  Whatever matters to people, matters to us. That’s why we
+                  create ideas and activations that work across platforms while
+                  inspiring emotional resonance at every touchpoint. At Grey,
+                  advertising and communications doesn’t need to be a gamble.
+                </p>
+                <p>
+                  Whatever matters to people, matters to us. That’s why we
+                  create ideas and activations that work across platforms while
+                  inspiring emotional resonance at every touchpoint. At Grey,
+                  advertising and communications doesn’t need to be a gamble.
+                </p>
+              </div>
+            </div>
+            <div className="gallery">
+              <div className="displayImage">
+                <img src={image1} alt="img" />
+                <img src={image2} alt="img" />
+                <img src={image3} alt="img" />
+                <img src={image1} alt="img" />
+              </div>
+            </div>
+            <div className="client">
+              <div className="innerClass">
+                <div className="child1">
+                  <h1>It Takes a Village to Raise a Brand.</h1>
+                </div>
+                <div className="child2">
+                  <p>
+                    Grey is proud to be part of AKQA, an international family of
+                    autonomous agencies with a shared mission, values and an
+                    independent mindset to nurture breakthrough work on behalf
+                    of the clients and audiences we collectively serve.
+                  </p>
+                </div>
+                <div className="child3">
+                  <h1>Travel</h1>
+                  <h1>Health Care</h1>
+                  <h1>Guide</h1>
+                  <h1>Client4</h1>
+                  <h1>Client5</h1>
+                  <h1>Client6</h1>
+                </div>
+              </div>
             </div>
           </div>
         </div>
